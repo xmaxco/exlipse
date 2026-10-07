@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Exlipse — the film</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;800&family=Geist+Mono:wght@500;600&family=Cinzel:wght@600;700&family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=IM+Fell+English:ital@0;1&family=UnifrakturMaguntia&family=Playfair+Display:ital,wght@1,600&family=Courier+Prime:wght@700&family=Shippori+Mincho:wght@600&display=block"
+    />
+  </head>
+  <body>
+    <canvas id="gl" width="3840" height="2160"></canvas>
+    <svg id="eye" viewBox="0 0 512 512">
+      <defs>
+        <mask id="lids" maskUnits="userSpaceOnUse" x="0" y="0" width="512" height="512">
+          <rect width="512" height="512" fill="#fff" />
+          <path id="lidU" fill="#000" d="M-40 -700H552V126.1Q256 501.2 -40 127.8Z" />
+          <path id="lidL" fill="#000" d="M-40 126.3Q256 499.7 552 124.6V1200H-40Z" />
+        </mask>
+      </defs>
+      <path id="eyePath" fill="#f6f6f4" mask="url(#lids)" d="" />
+      <path id="seam" fill="#f6f6f4" d="M90.6 256.1Q260.6 357.7 430.6 248.5Q260.6 393.7 90.6 256.1Z" />
+    </svg>
+    <div id="word" class="layer"></div>
+    <div id="stamp" class="layer"></div>
+    <div id="mark" class="layer">Exlipse</div>
+    <div id="pill">exlipse.dev</div>
+    <div id="fade"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

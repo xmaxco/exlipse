@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/xmaxco/exlipse/spec/schema/explanation.schema.json",
+  "title": "Exlipse explanation",
+  "description": "A move, the hypotheses that may explain it and the dated evidence behind each one.",
+  "type": "object",
+  "required": ["move", "hypotheses"],
+  "properties": {
+    "move": {
+      "type": "object",
+      "required": ["chain", "token", "kind", "started_at", "change"],
+      "properties": {
+        "chain": { "type": "string", "examples": ["solana"] },
+        "token": { "type": "string" },
+        "kind": { "enum": ["pump", "dump"] },
+        "started_at": { "type": "string", "format": "date-time" },
+        "change": { "type": "number", "description": "Relative change from the local low or high, 0.4 = +40%." }
+      }
+    },
+    "hypotheses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["kind", "confidence", "level", "followed", "base_rate", "evidence"],
+        "properties": {
+          "kind": {
+            "enum": ["smart_money_buy", "kol_buy", "buy_cluster", "migration", "creator_action", "trending_entered", "dex_paid", "artificial_volume", "x_post", "telegram_call"]
+          },
+          "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+          "level": { "enum": ["low", "medium", "high"], "description": "low < 0.35 ≤ medium < 0.65 ≤ high" },
+          "followed": { "type": "boolean", "description": "True when every piece of evidence landed after the move started." },
+          "base_rate": {
+            "type": "object",
+            "required": ["samples", "lift", "sufficient"],
+            "properties": {
+              "samples": { "type": "integer", "minimum": 0 },
+              "lift": { "type": "number", "minimum": 0 },
+              "sufficient": { "type": "boolean" }
+            }
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["at", "source", "summary"],
+              "properties": {
+                "at": { "type": "string", "format": "date-time" },
+                "source": { "enum": ["market", "wallet", "social"] },
+                "summary": { "type": "string" },
+                "url": { "type": "string", "format": "uri" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

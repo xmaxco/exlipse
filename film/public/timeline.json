@@ -1,0 +1,488 @@
+{
+ "fps": 30,
+ "duration": 47.0,
+ "bpm": 120,
+ "beat0": 0.0,
+ "shots": [
+  {
+   "t": 0.0,
+   "s": "space",
+   "phase": "intro"
+  },
+  {
+   "t": 3.0,
+   "s": "stone",
+   "stamp": "STONEHENGE · c. 2500 BC",
+   "ink": "light",
+   "hit": true
+  },
+  {
+   "t": 4.5,
+   "s": "nebra",
+   "stamp": "NEBRA · c. 1600 BC"
+  },
+  {
+   "t": 6.0,
+   "s": "egypt",
+   "stamp": "THEBES · c. 1300 BC",
+   "ink": "dark"
+  },
+  {
+   "t": 7.0,
+   "s": "bone",
+   "stamp": "ANYANG · c. 1200 BC",
+   "ink": "dark"
+  },
+  {
+   "t": 8.0,
+   "s": "bayeux",
+   "stamp": "BAYEUX · 1066",
+   "ink": "dark"
+  },
+  {
+   "t": 9.0,
+   "s": "engrave"
+  },
+  {
+   "t": 9.5,
+   "s": "gold"
+  },
+  {
+   "t": 10.0,
+   "s": "sun"
+  },
+  {
+   "t": 10.25,
+   "s": "thermal"
+  },
+  {
+   "t": 10.5,
+   "s": "ink"
+  },
+  {
+   "t": 10.75,
+   "s": "astro"
+  },
+  {
+   "t": 11.0,
+   "s": "clay",
+   "stamp": "BABYLON · 652 BC",
+   "ink": "dark",
+   "hit": true
+  },
+  {
+   "t": 12.5,
+   "s": "greek",
+   "stamp": "MILETUS · 585 BC"
+  },
+  {
+   "t": 13.5,
+   "s": "bronze",
+   "stamp": "ANTIKYTHERA · c. 100 BC"
+  },
+  {
+   "t": 15.0,
+   "s": "dunhuang",
+   "stamp": "DUNHUANG · c. 650",
+   "ink": "dark"
+  },
+  {
+   "t": 16.0,
+   "s": "codex",
+   "stamp": "YUCATÁN · c. 1200",
+   "ink": "dark"
+  },
+  {
+   "t": 17.0,
+   "s": "copernicus",
+   "stamp": "NUREMBERG · 1543",
+   "ink": "dark"
+  },
+  {
+   "t": 18.0,
+   "s": "galileo",
+   "stamp": "ROME · 1613",
+   "ink": "dark"
+  },
+  {
+   "t": 19.0,
+   "s": "map",
+   "stamp": "LONDON · 1715",
+   "ink": "dark"
+  },
+  {
+   "t": 20.0,
+   "s": "dag",
+   "stamp": "KÖNIGSBERG · 1851"
+  },
+  {
+   "t": 21.0,
+   "s": "eddington",
+   "stamp": "SOBRAL · 1919",
+   "ink": "dark"
+  },
+  {
+   "t": 22.0,
+   "s": "astro"
+  },
+  {
+   "t": 22.25,
+   "s": "gold"
+  },
+  {
+   "t": 22.5,
+   "s": "engrave"
+  },
+  {
+   "t": 22.75,
+   "s": "sun"
+  },
+  {
+   "t": 23.0,
+   "s": "tulip",
+   "stamp": "AMSTERDAM · 1637",
+   "ink": "dark",
+   "hit": true
+  },
+  {
+   "t": 24.5,
+   "s": "dojima",
+   "stamp": "DOJIMA · OSAKA · 1730",
+   "ink": "dark"
+  },
+  {
+   "t": 26.0,
+   "s": "ticker",
+   "stamp": "NEW YORK · 1867"
+  },
+  {
+   "t": 27.5,
+   "s": "genesis",
+   "stamp": "GENESIS BLOCK · 2009"
+  },
+  {
+   "t": 28.5,
+   "s": "radar",
+   "stamp": "SOLANA · 2026"
+  },
+  {
+   "t": 31.0,
+   "s": "stone",
+   "montage": true,
+   "hit": true
+  },
+  {
+   "t": 31.25,
+   "s": "nebra",
+   "montage": true
+  },
+  {
+   "t": 31.5,
+   "s": "egypt",
+   "montage": true
+  },
+  {
+   "t": 31.75,
+   "s": "bone",
+   "montage": true
+  },
+  {
+   "t": 32.0,
+   "s": "bayeux",
+   "montage": true
+  },
+  {
+   "t": 32.25,
+   "s": "clay",
+   "montage": true
+  },
+  {
+   "t": 32.5,
+   "s": "greek",
+   "montage": true
+  },
+  {
+   "t": 32.75,
+   "s": "bronze",
+   "montage": true
+  },
+  {
+   "t": 33.0,
+   "s": "dunhuang",
+   "montage": true
+  },
+  {
+   "t": 33.1667,
+   "s": "codex",
+   "montage": true
+  },
+  {
+   "t": 33.3333,
+   "s": "copernicus",
+   "montage": true
+  },
+  {
+   "t": 33.5,
+   "s": "galileo",
+   "montage": true
+  },
+  {
+   "t": 33.6667,
+   "s": "map",
+   "montage": true
+  },
+  {
+   "t": 33.8333,
+   "s": "dag",
+   "montage": true
+  },
+  {
+   "t": 34.0,
+   "s": "eddington",
+   "montage": true
+  },
+  {
+   "t": 34.1667,
+   "s": "tulip",
+   "montage": true
+  },
+  {
+   "t": 34.3333,
+   "s": "dojima",
+   "montage": true
+  },
+  {
+   "t": 34.5,
+   "s": "ticker",
+   "montage": true
+  },
+  {
+   "t": 34.6667,
+   "s": "genesis",
+   "montage": true
+  },
+  {
+   "t": 34.8333,
+   "s": "radar",
+   "montage": true
+  },
+  {
+   "t": 35.0,
+   "s": "gold",
+   "montage": true
+  },
+  {
+   "t": 35.0667,
+   "s": "engrave",
+   "montage": true
+  },
+  {
+   "t": 35.1333,
+   "s": "sun",
+   "montage": true
+  },
+  {
+   "t": 35.2,
+   "s": "astro",
+   "montage": true
+  },
+  {
+   "t": 35.2667,
+   "s": "thermal",
+   "montage": true
+  },
+  {
+   "t": 35.3333,
+   "s": "ink",
+   "montage": true
+  },
+  {
+   "t": 35.4,
+   "s": "stone",
+   "montage": true
+  },
+  {
+   "t": 35.4667,
+   "s": "nebra",
+   "montage": true
+  },
+  {
+   "t": 35.5333,
+   "s": "egypt",
+   "montage": true
+  },
+  {
+   "t": 35.6,
+   "s": "bone",
+   "montage": true
+  },
+  {
+   "t": 35.6667,
+   "s": "bayeux",
+   "montage": true
+  },
+  {
+   "t": 35.7333,
+   "s": "clay",
+   "montage": true
+  },
+  {
+   "t": 35.8,
+   "s": "greek",
+   "montage": true
+  },
+  {
+   "t": 35.8667,
+   "s": "bronze",
+   "montage": true
+  },
+  {
+   "t": 35.9333,
+   "s": "dunhuang",
+   "montage": true
+  },
+  {
+   "t": 36.0,
+   "s": "codex",
+   "montage": true
+  },
+  {
+   "t": 36.0667,
+   "s": "copernicus",
+   "montage": true
+  },
+  {
+   "t": 36.1333,
+   "s": "galileo",
+   "montage": true
+  },
+  {
+   "t": 36.2,
+   "s": "map",
+   "montage": true
+  },
+  {
+   "t": 36.2667,
+   "s": "dag",
+   "montage": true
+  },
+  {
+   "t": 36.3333,
+   "s": "eddington",
+   "montage": true
+  },
+  {
+   "t": 36.4,
+   "s": "tulip",
+   "montage": true
+  },
+  {
+   "t": 36.4667,
+   "s": "dojima",
+   "montage": true
+  },
+  {
+   "t": 36.5333,
+   "s": "ticker",
+   "montage": true
+  },
+  {
+   "t": 36.6,
+   "s": "genesis",
+   "montage": true
+  },
+  {
+   "t": 36.6667,
+   "s": "radar",
+   "montage": true
+  },
+  {
+   "t": 36.7333,
+   "s": "gold",
+   "montage": true
+  },
+  {
+   "t": 36.8,
+   "s": "engrave",
+   "montage": true
+  },
+  {
+   "t": 36.8667,
+   "s": "sun",
+   "montage": true
+  },
+  {
+   "t": 36.9333,
+   "s": "astro",
+   "montage": true
+  },
+  {
+   "t": 37.0,
+   "s": "black"
+  },
+  {
+   "t": 38.0,
+   "s": "space",
+   "phase": "end",
+   "hit": true
+  }
+ ],
+ "words": [
+  {
+   "t0": 3.0,
+   "t1": 6.9,
+   "text": "They called it"
+  },
+  {
+   "t0": 7.0,
+   "t1": 10.9,
+   "text": "an omen."
+  },
+  {
+   "t0": 11.0,
+   "t1": 14.9,
+   "text": "Until someone"
+  },
+  {
+   "t0": 15.0,
+   "t1": 18.9,
+   "text": "wrote down"
+  },
+  {
+   "t0": 19.0,
+   "t1": 22.9,
+   "text": "the date."
+  },
+  {
+   "t0": 23.0,
+   "t1": 26.9,
+   "text": "Every move"
+  },
+  {
+   "t0": 27.0,
+   "t1": 28.4,
+   "text": "leaves"
+  },
+  {
+   "t0": 28.5,
+   "t1": 30.9,
+   "text": "a trace."
+  }
+ ],
+ "montage": {
+  "t0": 31.0,
+  "t1": 37.0,
+  "from": -2500,
+  "to": 2026
+ },
+ "end": {
+  "open": 38.0,
+  "corOut": 39.8,
+  "lock": 40.6,
+  "button": 41.7,
+  "out": 45.5
+ },
+ "intro": {
+  "total": 1.0
+ }
+}

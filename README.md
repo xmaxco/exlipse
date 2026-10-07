@@ -176,9 +176,17 @@ Exlipse is in **early access**. Base rates are still being collected, so confide
 Go services ingest market, wallet and X data and run the move detector and the why engine; a Python service turns X posts and Telegram channels into evidence;
 PostgreSQL 17 keeps every piece of evidence with its timestamp; the web app is React 19.
 
+## In this repository
+
+| Path | What | Languages |
+|---|---|---|
+| [`film/`](film) | The Exlipse film, rendered from code — 27 WebGL2 scenes, era typography, a synthesized score | TypeScript · GLSL · Python |
+| [`spec/`](spec) | The public evidence format — what a move, a hypothesis and a piece of evidence look like | Go · TypeScript · Python · JSON Schema |
+| [`assets/`](assets) | Banner, stills, logo | — |
+
 > [!NOTE]
-> **Exlipse is closed source.** This repository is the project's public home — overview, brand assets and announcements.
-> The product code is not published here.
+> **The Exlipse product is closed source.** The ingestion pipeline, the move detector, the why engine and the app
+> are not published here. This repository holds the film, the public evidence format and brand assets.
 
 ## Links
 
