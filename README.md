@@ -8,6 +8,7 @@
 [![X](https://img.shields.io/badge/@exlipse__dev-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/exlipse_dev)
 [![Telegram](https://img.shields.io/badge/@exlipsedev__bot-229ED9?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/exlipsedev_bot)
 [![Status](https://img.shields.io/badge/status-early%20access-1a1a1a?style=for-the-badge)](https://app.exlipse.dev)
+[![Guided by WOWMAX](https://img.shields.io/badge/guided%20by-WOWMAX-1a1a1a?style=for-the-badge)](https://wowmax.exchange)
 
 ### Why did that meme token move?
 
@@ -18,6 +19,8 @@ and never pretends to know more than the evidence shows.
 **No ratings. No calls. No guessed intent.**
 
 [Website](https://exlipse.dev) · [Open the app](https://app.exlipse.dev) · [X](https://x.com/exlipse_dev) · [Telegram](https://t.me/exlipsedev_bot)
+
+<sub>Built under the guidance of the <a href="https://wowmax.exchange">WOWMAX</a> team.</sub>
 
 </div>
 
@@ -196,6 +199,7 @@ PostgreSQL 17 keeps every piece of evidence with its timestamp; the web app is R
 | 🖥 App | [app.exlipse.dev](https://app.exlipse.dev) |
 | 𝕏 X | [@exlipse_dev](https://x.com/exlipse_dev) |
 | ✈️ Telegram | [@exlipsedev_bot](https://t.me/exlipsedev_bot) |
+| 🤝 Guidance | the [WOWMAX](https://wowmax.exchange) team |
 
 <br>
 
